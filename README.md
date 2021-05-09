@@ -47,7 +47,7 @@ Vale lembrar que devemos inserir futuramente a  *função de custo*  futuro que 
 
 Portanto, temos a função:
 
-![equacao 1](https://github.com/petterpaulm/Sistemas_Eletricos/blob/master/pictures/funcao_objetivo_print.png?raw=true)
+![equacao 1](.pictures/funcao_objetivo_print.png)
 
 #### Alguns exemplos de evolução do Multiplicador de Lagrange (CMO - Custo Marginal de Operação):
 
