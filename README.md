@@ -10,35 +10,37 @@ A Técnica de Programação Dinâmica Estocástica "Adaptada" pelo Python é uti
 
 ### Temos 3 variáveis para avaliar no caso das usinas UHEs:
 
-> Vf: Volume Final (quanto que a usina chegará de voluma no final do mês operativo)
+        > Vf: Volume Final (quanto que a usina chegará de voluma no final do mês operativo)
 
-> Vt: volume turbina
+        > Vt: volume turbina
 
-> Vv: volume vertido (quando no final do mês houver mais volume do que a capacidade)
+        > Vv: volume vertido (quando no final do mês houver mais volume do que a capacidade)
 
 ### Temos 2 variáveis associadas às UTEs:
 
-> GT1: Geração Termica da Usina 1
+        > GT1: Geração Termica da Usina 1
 
-> GT2: Geração Termica da Usina 2
+        > GT2: Geração Termica da Usina 2
 
 E, por fim, gostaríamos de saber o déficit.
 
 Vamos escever a função objetivo:
 
-Min (C1.GT1 + C2.GT2 + CDef.def + 0.01.Vv)
+        > Min (C1.GT1 + C2.GT2 + CDef.def + 0.01.Vv)
 
-s.t. 
-    > Balanço Hídrico: Vf = Vi (Volume Inicial no mês) + Afl (Afluência) - Vt (Volume Turbina) - Vv (Volume Vertido)
-    > Atendimento da Demanda: P.Vt + GT1 + GT2 + Def  = Carga
-    > Restrições de Canalização: Limites inferiores e superiores das variáveis de decisão:
+        > s.t.
+
+        > Balanço Hídrico: Vf = Vi (Volume Inicial no mês) + Afl (Afluência) - Vt (Volume Turbina) - Vv (Volume Vertido)
+
+        > Atendimento da Demanda: P.Vt + GT1 + GT2 + Def  = Carga
+
+Restrições de Canalização: Limites inferiores e superiores das variáveis de decisão:
+
         > Vf: [20, 100]
         > Vt: [0, 60]
         > Vv: [0, infinito]    
-
         > GT1: [0, 15]
         > GT2: [0, 25]
-
         > Def: [0, infinito]
         
 Vale lembrar que devemos inserir futuramente a  *função de custo*  futuro que é o "$\alpha$ a mais na função". 
