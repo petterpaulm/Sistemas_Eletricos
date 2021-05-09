@@ -6,7 +6,6 @@ A intenção deste projeto é apresentar um simples modelo de otimização entre
 
 A Técnica de Programação Dinâmica Estocástica "Adaptada" pelo Python é utilizada.
 
-
 ## Um pouco de teoria e explicação do problema abordado
 
 ### Temos 3 variáveis para avaliar no caso das usinas UHEs:
@@ -46,7 +45,14 @@ s.t.
 
 ### Portanto, temos a função:
 
-$ Min \hspace{0.5cm} C_1 \cdot GT_1 + C_2 \cdot GT_2 + CDef \cdot def + 0.01 \cdot Vvet $
-
 ![equacao 1](https://github.com/petterpaulm/Sistemas_Eletricos/blob/master/pictures/funcao_objetivo_print.png?raw=true)
 
+### Alguns exemplos de evolução do Multiplicador de Lagrange (CMO - Custo Marginal de Operação):
+
+![grafico 1](https://github.com/petterpaulm/Sistemas_Eletricos/blob/master/pictures/grafico_estagio_1.png?raw=true)
+
+![grafico 2](https://github.com/petterpaulm/Sistemas_Eletricos/blob/master/pictures/grafico_estagio_2.png?raw=true)
+
+## Contribuições / Comentários / Críticas
+Pull requests são muito bem-vindos. 
+Para maiores alterações, por favor envie um issue especificando os detalhes.
