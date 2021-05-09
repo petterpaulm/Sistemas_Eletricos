@@ -1,5 +1,7 @@
 # Planejamento de Sistemas Eletricos
 
+<div style="width:100%;height:0;padding-bottom:68%;position:relative;"><iframe src="https://giphy.com/embed/2surg4h1puFna" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/water-splashing-dams-2surg4h1puFna">via GIPHY</a></p>
+
 A intenção deste projeto é apresentar um simples modelo de otimização entre usinas hidreletricas ("UHE") e termeletricas ("UTE"), considerando o "dilema do oeprador do sistema elétrico".
 
 A Técnica de Programação Dinâmica Estocástica "Adaptada" pelo Python é utilizada.
