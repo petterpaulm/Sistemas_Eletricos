@@ -51,9 +51,9 @@ Portanto, temos a função:
 
 #### Alguns exemplos de evolução do Multiplicador de Lagrange (CMO - Custo Marginal de Operação):
 
-![grafico 1](https://github.com/petterpaulm/Sistemas_Eletricos/blob/master/pictures/grafico_estagio_1.png?raw=true)
+![grafico 1](./pictures/grafico_estagio_1.png)
 
-![grafico 2](https://github.com/petterpaulm/Sistemas_Eletricos/blob/master/pictures/grafico_estagio_2.png?raw=true)
+![grafico 2](./pictures/grafico_estagio_2.png)
 
 ## Contribuições / Comentários / Críticas
 Pull requests são muito bem-vindos. 
