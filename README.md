@@ -41,13 +41,13 @@ s.t.
 
         > Def: [0, infinito]
         
-### Vale lembrar que devemos inserir futuramente a  *função de custo*  futuro que é o "$\alpha$ a mais na função". 
+Vale lembrar que devemos inserir futuramente a  *função de custo*  futuro que é o "$\alpha$ a mais na função". 
 
-### Portanto, temos a função:
+Portanto, temos a função:
 
 ![equacao 1](https://github.com/petterpaulm/Sistemas_Eletricos/blob/master/pictures/funcao_objetivo_print.png?raw=true)
 
-### Alguns exemplos de evolução do Multiplicador de Lagrange (CMO - Custo Marginal de Operação):
+#### Alguns exemplos de evolução do Multiplicador de Lagrange (CMO - Custo Marginal de Operação):
 
 ![grafico 1](https://github.com/petterpaulm/Sistemas_Eletricos/blob/master/pictures/grafico_estagio_1.png?raw=true)
 
